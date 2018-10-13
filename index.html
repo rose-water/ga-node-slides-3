@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <title>Week 5: Node, Day 3</title>
+  
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      
+      <!-- ------------- -->
+      <section class="title-slide">
+        <h3 class="title-text">NODE</h3>
+        <div class="sub-head">
+          <div class="sub-head-text"><span>10.13.18 - Day 3</span></div>
+        </div>
+      </section>
+      
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>Agenda</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>what we're doing today:</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                +<span>Node + Sockets: Twitter API</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Node + Sockets: Serial Communication with Arduino</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Project: Create a Basic Data Visualization</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Project Review @ ~3:00PM</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>Code</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>Clone the repo <a href="https://github.com/rose-water/ga-node-day-3" target="_blank">here</a></span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+        </div>
+      </section>
+  
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>Node</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>Node + Sockets: Twitter API</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                +<span>Sockets are a way to create a persistent connection between a client and a server</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Communication is real-time and bi-directional</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>We can use them to communicate live API updates to our client</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>Node</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>Node + Sockets: Serial Communication with Arduino</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                +<span>Requires another node dependency: <code>serialport</code></span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>We can read messages from an Arduino into our Node server</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>Assignment</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>Pairs or Individual</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                <span>Find an API from this <a href="https://github.com/toddmotto/public-apis" target="_blank">list</a> to work with</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                <span>Since we haven't covered authentication, try to find one that says auth:no</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                <span>You can play around with ones that require apiKeys, but they typically require signup</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                <span>No APIs requiring OAuth are allowed</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>Assignment</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>Pairs or Individual</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                <span>Create a basic data visualization using the library of your choice (p5.js) recommended</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                <span>You must create a Git repo for your work</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                <span>Create a <code>.gitignore</code> file with <code>/node_modules</code> to prevent pushing all your dependencies</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                <span>Presentations @ 3:00PM</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+  
+      <!-- END SLIDES -->
+    </div>
+  </div>
+</body>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script>
+  // ---------------------------------------------
+  init();
+  
+  // ---------------------------------------------
+  function init() {
+    Reveal.initialize({
+      dependencies: [
+      { 
+        src: 'plugin/highlight/highlight.js', 
+        async: true, 
+        callback: function() { hljs.initHighlightingOnLoad(); } 
+      }
+      ]
+    });
+    
+    Reveal.configure({
+      slideNumber: true,
+      slideNumber: 'c/t'
+    });
+    
+  }
+</script>
+
+</html>
